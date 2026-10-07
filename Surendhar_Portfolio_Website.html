@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surendhar S | Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b0b0d;color:#f4f4f5;line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:rgba(11,11,13,.92);border-bottom:1px solid #242428;padding:18px 8%}
+.nav{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:auto}
+.logo{font-size:20px;font-weight:700}
+nav a{color:#bbb;text-decoration:none;margin-left:24px;font-size:14px}
+nav a:hover{color:#fff}
+.hero{min-height:82vh;display:flex;align-items:center;max-width:1100px;margin:auto;padding:70px 8%}
+.tag{color:#999;font-size:14px;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(45px,8vw,82px);line-height:1.05;margin:15px 0}
+.hero h2{font-size:22px;color:#c8c8cc;font-weight:400;margin-bottom:20px}
+.hero p{max-width:650px;color:#999}
+.btn{display:inline-block;margin-top:28px;padding:12px 22px;border:1px solid #555;border-radius:6px;color:#fff;text-decoration:none}
+section{max-width:1100px;margin:auto;padding:80px 8%}
+.title{font-size:30px;margin-bottom:28px}
+.about{color:#aaa;max-width:780px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{border:1px solid #27272c;border-radius:10px;padding:24px;background:#111114}
+.card h3{margin-bottom:10px}
+.card p{color:#999;font-size:14px}
+.skills span{display:inline-block;border:1px solid #333;border-radius:5px;padding:10px 14px;margin:5px;color:#ccc}
+.timeline{border-left:1px solid #444;padding-left:22px}
+.timeline p{color:#999;margin-bottom:24px}
+footer{text-align:center;border-top:1px solid #242428;padding:30px;color:#777;font-size:13px}
+@media(max-width:650px){nav .links{display:none}.hero{min-height:75vh}section{padding-top:60px}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="nav">
+<div class="logo">SURENDHAR J</div>
+<div class="links">
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certifications">Certificates</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<header class="hero">
+<div>
+<div class="tag">Engineering Student • Developer</div>
+<h1>Hi, I'm<br>Surendhar.</h1>
+<h2>Final-Year B.Tech. Information Technology</h2>
+<p>I am a quick learner interested in software development, web technologies and emerging technologies. I enjoy building practical projects and improving my technical skills.</p>
+<a class="btn" href="#projects">View My Work</a>
+</div>
+</header>
+
+<section id="about">
+<h2 class="title">About Me</h2>
+<p class="about">I am currently pursuing my final year B.Tech. in Information Technology at K.L.N. College of Engineering. I have hands-on experience with front-end web development and have worked with programming languages and development tools. I am looking for opportunities to gain industry experience, learn continuously and contribute effectively to a team.</p>
+</section>
+
+<section id="skills">
+<h2 class="title">Skills</h2>
+<div class="skills">
+<span>C</span><span>Python</span><span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>SQLite</span><span>Microsoft Excel</span><span>VS Code</span>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="title">Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Digital Document Organizer</h3>
+<p>A web application for organizing documents into general and expired categories, with document upload, expiry-date management, preview and email reminder features.</p>
+<p><br><b>Tech:</b> Flask • SQLite • bcrypt</p>
+</div>
+<div class="card">
+<h3>Exercise Project for Error Make Clever Academy</h3>
+<p>A website for a flower show with using frontend languages</p>
+<p><br><b>Tech:</b> HTML • CSS • JavaScript</p>
+</div>
+<div class="card">
+<h3>Personal Web Project</h3>
+<p>A front-end website developed using HTML, CSS and JavaScript with focus on clean layout, usability and interactive elements.</p>
+<p><br><b>Tech:</b> HTML • CSS • JavaScript</p>
+</div>
+</div>
+</section>
+
+<section id="certifications">
+<h2 class="title">Certifications</h2>
+<div class="grid">
+<div class="card"><h3>Java Course</h3><p>Udemy</p></div>
+<div class="card"><h3>Affective Computing</h3><p>NPTEL</p></div>
+<div class="card"><h3>Privacy and Security in Online Social Media</h3><p>NPTEL</p></div>
+<div class="card"><h3>Design and Implementation of Human Computer Interfaces</h3><p>NPTEL</p></div>
+<div class="card"><h3>HTML & CSS</h3><p>Error Makes Clever Academy</p></div>
+<div class="card"><h3>JavaScript</h3><p>Error Makes Clever Academy</p></div>
+</div>
+</section>
+
+<section>
+<h2 class="title">Education</h2>
+<div class="timeline">
+<h3>B.Tech. Information Technology</h3>
+<p>K.L.N. College of Engineering • Final Year</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Let's Connect</h2>
+<div class="grid">
+<div class="card"><h3>Email</h3><a href="mailto:surandhar346@gmail.com">surandhar346@gmail.com</a></div>
+<div class="card"><h3>Phone</h3><p>+91 80158 00550</p></div>
+<div class="card"><h3>LinkedIn</h3><a href="https://www.linkedin.com/in/surendhar-jayakumar-93862b265/" target="_blank">LinkedIn</a></div>
+</div>
+</section>
+
+<footer>© 2026 Surendhar J. All rights reserved.</footer>
+</body>
+</html>
